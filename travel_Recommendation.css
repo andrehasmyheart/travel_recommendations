@@ -70,3 +70,10 @@ form button {
     border: none;
     cursor: pointer;
 }
+
+/* ABOUT US */
+.about {
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+}
