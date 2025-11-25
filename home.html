@@ -1,0 +1,23 @@
+<nav style="background:#333; padding:15px; color:white; display:flex; align-items:center; gap:20px;">
+    <h2 style="margin:0; color:white;">Travel Explorer</h2>
+
+    <a href="index.html" style="color:white;">Home</a>
+    <a href="about.html" style="color:white;">About Us</a>
+    <a href="contact.html" style="color:white;">Contact Us</a>
+
+    <input id="search-input" type="text" placeholder="Search destinations..." 
+           style="margin-left:auto; padding:5px;"/>
+
+    <button onclick="search()" style="padding:5px 10px;">Search</button>
+    <button onclick="resetSearch()" style="padding:5px 10px;">Reset</button>
+</nav>
+
+<script>
+function search() {
+    alert("Search function executed!");
+}
+
+function resetSearch() {
+    document.getElementById("search-input").value = "";
+}
+</script>

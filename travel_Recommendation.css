@@ -1,0 +1,72 @@
+/* GLOBAL STYLES */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+
+/* NAVBAR */
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav h2 {
+    color: white;
+    margin-right: 20px;
+}
+
+.nav-logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.search-controls {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* HOME PAGE */
+.intro {
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* CONTACT FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form input, form textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
